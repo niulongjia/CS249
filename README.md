@@ -1,2 +1,0 @@
-# CS249
-UCLA CS249 (Spring 2016)

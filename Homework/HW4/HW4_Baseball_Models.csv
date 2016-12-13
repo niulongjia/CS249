@@ -1,0 +1,2 @@
+0.7270904307902,lm( log10(max_salary) ~ AB + R + H + X2B + X3B + HR + RBI + SB + CS + BB + BA + PA + SlugPct + OBP + BABIP + startYear + totalYears+ weight + height + bats + throws,data = PlayersAndStatsAndSalary)
+0.988977882283783,svm( HallOfFame~AB + R + H + X2B + X3B + HR + RBI + SB + CS + BB + BA + PA + SlugPct + OBP + BABIP + weight + height + bats + throws + birthYear, ,data=HallOfFameContenders, type = "C", kernel = "radial", gamma = 0.5,cost = 62.5,  tolerance = 0.001, epsilon = 0.001,na.action = na.omit)

@@ -1,0 +1,8 @@
+0.623813056379822,qda( cut ~ .,           data=my.training.set )
+0.907060820121578,lm(  price ~ .,         data=my.training.set )
+0.978330524945539,lm(  log10(price) ~ .,  data=my.training.set )
+0.976557863501484,glm( I(price>1500) ~ ., data=my.training.set, family = binomial )
+0.624406528189911,qda( cut ~ .+I(price>2000),           data=my.training.set )
+0.940748763997851,lm(  price ~ .,         data=my.trans.training.set )
+1,lm(  log10(price) ~ .,  data=my.trans.training.set )
+0.995029673590504,glm( I(price>1500) ~ ., data=my.trans.training.set, family = binomial )
